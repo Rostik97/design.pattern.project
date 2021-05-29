@@ -34,7 +34,7 @@ public class Client {
     }
 
     public static class Builder {
-        private Client client;
+        private final Client client;
 
         public Builder() {
             client = new Client();
